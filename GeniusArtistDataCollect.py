@@ -12,8 +12,8 @@ class GeniusArtistDataCollect:
     FORK CHANGES:
         * Due to the way GeniusApi works the original wrapper wasn't working anymore so I made a 
         changed to CSS selectors in the webscrapping portion.
-        * I've added a function that retrieves the genre of the song, it does not always work and 
-        if that is the case the genre will have a [failed] flag
+        * I've added a function that retrieves the genre of the song, it does not always work due to the way Genius API works and 
+        if that is the case the genre will have a [failed] flag. A genre can be infered from the most common one for each artist8
         
 
     Uses the Genius API and webscraping techniques to get the data."""
